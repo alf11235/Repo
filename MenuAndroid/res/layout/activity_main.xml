@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.menuandroid.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="51dp"
+        android:text="@string/Salir" />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button5"
+        android:layout_alignLeft="@+id/Button5"
+        android:layout_marginBottom="24dp"
+        android:text="@string/Creditos" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button4"
+        android:layout_centerVertical="true"
+        android:text="@string/Opciones" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button3"
+        android:layout_alignLeft="@+id/Button3"
+        android:layout_marginBottom="17dp"
+        android:text="@string/Minijuegos" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginBottom="19dp"
+        android:text="@string/Jugar" />
+    
+</RelativeLayout>

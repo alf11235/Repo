@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="Jugar">Jugar</string>
+    <string name="Minijuegos">Minijuegos</string>
+    <string name="Opciones">Opciones</string>
+    <string name="Creditos">Creditos</string>
+    <string name="Salir">Salir</string>
+
+    <string name="app_name">MenuAndroid</string>
+    <string name="hello_world">Mi Primer Menú</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
